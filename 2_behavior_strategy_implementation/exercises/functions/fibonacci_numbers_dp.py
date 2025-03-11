@@ -5,7 +5,28 @@
 
 # --- declare function ---
 
-def fibonacci_numbers_dp(n):
+def fibonacci_numbers_dp(n: int) -> int:
+    '''
+    Calculate the n-th Fibonacci number using dynamic programming. (from bottom to top)
+    
+    args:
+    :type n: int The position of the Fibonacci number to calculate(be >= 0)
+    
+    return:
+    :type: int The n-th Fibonacci number
+    
+    Maths:
+        Fibonacci numbers are defined by F(n) = F(n-1) + F(n-2) with F(0) = 0 and F(1) = 1.
+        
+    Example:
+    
+    >>> fibonacci_numbers_dp(0) 0  
+    >>> fibonacci_numbers_dp(1) 1
+    >>> fibonacci_numbers_dp(2) 1
+    >>> fibonacci_numbers_dp(3) 2
+    >>> fibonacci_numbers_dp(4) 3
+    '''
+    # initialize the list to store the Fibonacci numbers
     f = [0, 1]
     
     # calculate the Fibonacci numbers from the bottom to the top
