@@ -119,6 +119,9 @@ def fib(n: int) -> int:
     # Store nth Fibonacci number
     return F[0][0]
 
+# example
+# print(fib(10))  # 55
+# print(fib(24))  # 46368
 
 # --- test function ---
 

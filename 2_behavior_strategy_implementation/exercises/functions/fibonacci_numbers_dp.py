@@ -38,6 +38,11 @@ def fibonacci_numbers_dp(n: int) -> int:
     # return the n-th Fibonacci number
     return f[n]
 
+# example
+# print(fibonacci_numbers_dp(10)) # 55
+# print(fibonacci_numbers_dp(20)) # 6765
+
+
 # --- test function ---
 assert fibonacci_numbers_dp(0) == 0
 assert fibonacci_numbers_dp(1) == 1

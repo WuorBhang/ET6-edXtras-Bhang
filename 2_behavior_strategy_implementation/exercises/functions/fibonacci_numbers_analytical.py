@@ -42,9 +42,16 @@ def fibonacci_numbers_analytical(n: int) -> int:
     # prevents floating point errors by rounding to the nearest integer.
     return round(fibonacci_number)
 
+# example
+# print(fibonacci_numbers_analytical(10)) # 55
+# print(fibonacci_numbers_analytical(24)) # 46368
+
+
 # --- test function ---
-print(fibonacci_numbers_analytical(0) == 0)
-print(fibonacci_numbers_analytical(1) == 1)
-print(fibonacci_numbers_analytical(2) == 1)
-print(fibonacci_numbers_analytical(10) == 55)
-print(fibonacci_numbers_analytical(24) == 46368)
+assert fibonacci_numbers_analytical(0) == 0
+assert fibonacci_numbers_analytical(1) == 1
+assert fibonacci_numbers_analytical(2) == 1
+assert fibonacci_numbers_analytical(10) == 55
+assert fibonacci_numbers_analytical(24) == 46368
+assert fibonacci_numbers_analytical(30) == 832040
+assert fibonacci_numbers_analytical(60) == 1548008755920
