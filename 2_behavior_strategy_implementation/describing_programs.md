@@ -235,7 +235,6 @@ be looking at a goal:
 You can label goals with commented line dividers and a short title describe what
 important step happens in those lines:
 
-
 ```python
 """
 A user can input anything, if the input is "yes" the program is excited
@@ -300,7 +299,6 @@ For additional reading on commenting best practices:
 - [the pros and cons](https://www.techrepublic.com/article/the-pros-and-cons-but-mostly-pros-of-comments-in-code/)
 - [comments in your code](https://medium.com/better-programming/comments-in-your-code-730cfd1dde02)
 - [the good, the bad, the ugly](https://www.freecodecamp.org/news/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83/)
-
 
 ---
 ---
