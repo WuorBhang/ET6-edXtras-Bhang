@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*-
 
 """
-This program take user input and reverse it
+Module: Reverse input program
+Author: bhang@GenZDevOps
+Description: This program take user input and reverse it
 """
 # This is an empty list (a) to store the reversed input by user input
 a = ""
