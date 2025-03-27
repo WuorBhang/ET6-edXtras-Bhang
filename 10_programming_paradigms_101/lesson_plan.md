@@ -2,7 +2,7 @@ class: middle, center
 
 <!-- this file is written for remark: https://github.com/gnab/remark/wiki -->
 
-# Encapsulation
+# Programming Paradigms 101
 
 _This workshops builds on [Using Functions](../06_using_functions/)_
 
@@ -99,7 +99,7 @@ class: middle
 
 class: middle, center
 
-## Code-Along!
+## Code-Along
 
 ---
 
