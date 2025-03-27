@@ -44,7 +44,7 @@ while True:
         break
 
     try:
-        # global variable -> cast input to string -> another global variable
+        # global variable -> cast input to a float -> another global variable
         next_number = float(user_input)
         # global variable -> _ -> a list in a global variable
         numbers.append(next_number)

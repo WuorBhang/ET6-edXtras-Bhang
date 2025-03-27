@@ -10,7 +10,7 @@ class Averager():
         self.user_numbers = []
         self.average = 0
 
-    # from args -> gathers & validates user input -> data is saved to instance property
+    # from args & input -> gathers & validates input -> saved to instance property
     def gather_numbers(self, prompt: str = 'enter a number or "done"'):
         while True:
             # argument data -> printed to CLI -> _
