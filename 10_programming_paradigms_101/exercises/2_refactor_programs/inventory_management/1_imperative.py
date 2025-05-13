@@ -5,7 +5,6 @@ import pprint
 print("\nSimple Inventory Management System\n")
 
 inventory = {}
-total_value = 0
 
 while True:
     print("\nOptions:")
@@ -51,4 +50,6 @@ while True:
 print("\nFinal Inventory:")
 for name, details in inventory.items():
     print(f"{name}: ${details['price']} x {details['quantity']}")
+    
+total_value = sum(item['price'] * item['quantity'] for item in inventory.values())
 print(f"Total value: ${total_value:.2f}")
